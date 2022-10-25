@@ -1,0 +1,48 @@
+{
+  "name": "compile-run2",
+  "version": "1.0.0",
+  "description": "Fork compile-run, 新增支援C#",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run tsc --",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhixuli0406/compile-run2.git"
+  },
+  "keywords": [
+    "compile",
+    "run",
+    "compile-run",
+    "execute",
+    "python",
+    "java",
+    "node",
+    "nodejs",
+    "gcc",
+    "cpp",
+    "c",
+    "c++"
+  ],
+  "author": "vibhor agrawal <vibhor349a@rediffmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhixuli0406/compile-run2/issues"
+  },
+  "homepage": "https://github.com/zhixuli0406/compile-run2#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.15",
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "dist",
+    "extensions-map.json"
+  ],
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  }
+}
